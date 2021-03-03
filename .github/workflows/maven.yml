@@ -25,9 +25,3 @@ jobs:
         java-version: 15
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-
-  publish: 
-
-    runs-on: ubuntu-latest
-
-    needs: build
