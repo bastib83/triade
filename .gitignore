@@ -42,3 +42,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+## Frontend modules
+/triade-frontend/node_modules/
